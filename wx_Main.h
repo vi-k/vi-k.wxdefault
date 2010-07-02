@@ -34,18 +34,18 @@ class wx_MainFrame: public wxFrame
 		//*)
 
 		//(*Identifiers(wx_MainFrame)
+		static const long ID_PANEL2;
+		static const long ID_PANEL1;
 		static const long ID_MENU_QUIT;
 		static const long ID_MENU_ABOUT;
-		static const long ID_PANEL1;
-		static const long ID_PANEL2;
 		static const long ID_STATUSBAR1;
 		//*)
 
 		//(*Declarations(wx_MainFrame)
-		wxFlexGridSizer* FlexGridSizer1;
 		wxPanel* Panel1;
-		wxPanel* Panel2;
 		wxStatusBar* StatusBar1;
+		wxPanel* Panel2;
+		wxFlexGridSizer* FlexGridSizer1;
 		//*)
 
 		DECLARE_EVENT_TABLE()
